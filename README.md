@@ -62,7 +62,7 @@ The standard `Servo.h` library range (1000us-2000us) was insufficient for the Sk
 * **Joystick VRx:** Pin A0
 * **NRF24 CE/CSN:** Pin D9 / D10
 
-### Bağlantı Şemaları (Wiring Diagrams)
+### Wiring Diagrams
 
 **Receiver:**
 ![Receiver Schematic](Receiver_Schematic.jpeg)
