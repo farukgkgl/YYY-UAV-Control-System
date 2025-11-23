@@ -49,7 +49,7 @@ The standard `Servo.h` library range (1000us-2000us) was insufficient for the Sk
     }
     ```
 
-## 🔌 Wiring Diagram (Prototype)
+##  Wiring Diagram (Prototype)
 
 ### Receiver (RX) - Vehicle Side
 * **ESC Signal (White):** Pin D3 (PWM)
@@ -62,7 +62,15 @@ The standard `Servo.h` library range (1000us-2000us) was insufficient for the Sk
 * **Joystick VRx:** Pin A0
 * **NRF24 CE/CSN:** Pin D9 / D10
 
-## 🗺️ Roadmap & Future Plans
+### Bağlantı Şemaları (Wiring Diagrams)
+
+**Receiver:**
+![Receiver Schematic](Receiver_Schematic.jpeg)
+
+**Transmitter:**
+![Transmitter Schematic](Transmitter_Schematic.jpeg)
+
+##  Roadmap & Future Plans
 
 - [x] **Phase 1:** Basic RF Communication & Motor Drive (Completed) 
 - [ ] **Phase 2:** Independent Power Systems (UBEC integration) & Portable TX Design
